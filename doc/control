@@ -1,0 +1,35 @@
+Audio controls
+
+States:
+STOPPED
+PLAYING
+PAUSED
+
+Button actions:		Meaning:
+Pure (direct) audio controls
+BACK			Play from beginning of this song;Play previous song
+NEXT			Play next song
+PLAY/PAUSE		Toggle between PAUSED/PLAYING;Play song
+STOP			Stop playing
+-(automatic)		When done playing this song, start next one
+-(automatic)		When no more songs on playlist, stop playing
+
+Related (indirect) controls
+SELECT			Start playing selected song and queue rest shown
+			as part of listview
+RIGHT			Add song to playlist
+
+Idea: fully separate audio controls and other menu controls.
+As long as there are songs queued on the playlist, audio controls
+are effective.
+
+Automatic actions:
+song that's playing is coming to its end;
+if there's a next one, then start playing that,
+otherwise stop.
+
+Automatic shuffle playing
+if on screen 1 and no button pressed for 1 minute
+- select first server
+- collect songs and start playing them in random order
+  (fill up playlist and keep refreshing)

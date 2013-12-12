@@ -1,0 +1,542 @@
+Loaded gfx/network.u16 62 62
+Loaded gfx/logoblack.u16 235 97
+mp3: (init) MP3_STOPPED
+mp3: processing loop started
+mixer processing loop started
+Loaded gfx/volume.u16 300 62
+set_volume(63, 63)
+Keyboard emulation of remote
+Font has 1 face(s)
+Found server "Music on NSLU2" at 192.168.0.253:3689
+Shuffle timer expired
+connecting to 192.168.0.253:3689
+http_open 192.168.0.253:3689
+GET daap://192.168.0.253:3689/login HTTP/1.1
+Accept: */*
+User-Agent: iTunes/4.6 (Windows; N)
+Client-DAAP-Version: 3.0
+Client-DAAP-Access-Index: 2
+
+HTTP/1.1 200 OK
+Content-Length: 32
+Content-Type: application/x-dmap-tagged
+DAAP-Server: mt-daapd/0.2.3
+Accept-Ranges: bytes
+Date: Sun, 12 Feb 2006 03:20:01 GMT
+GET daap://192.168.0.253:3689/databases?session-id=111 HTTP/1.1
+Accept: */*
+User-Agent: iTunes/4.6 (Windows; N)
+Client-DAAP-Version: 3.0
+Client-DAAP-Access-Index: 2
+Client-DAAP-Validation: 6C45C409028999D68EBBB539CC1D43F6
+
+HTTP/1.1 200 OK
+Content-Length: 143
+Content-Type: application/x-dmap-tagged
+DAAP-Server: mt-daapd/0.2.3
+Accept-Ranges: bytes
+Date: Sun, 12 Feb 2006 03:20:01 GMT
+GET daap://192.168.0.253:3689/databases/1/items?type=music&meta=daap.songartist,daap.songcompilation&session-id=111 HTTP/1.1
+Accept: */*
+User-Agent: iTunes/4.6 (Windows; N)
+Client-DAAP-Version: 3.0
+Client-DAAP-Access-Index: 2
+Client-DAAP-Validation: 6E8DFB6F11EEB22F15A1D8E2D470C0B9
+
+HTTP/1.1 200 OK
+Content-Length: 254121
+Content-Type: application/x-dmap-tagged
+DAAP-Server: mt-daapd/0.2.3
+Accept-Ranges: bytes
+Date: Sun, 12 Feb 2006 03:20:01 GMT
+Artist Bill Frisell
+GET daap://192.168.0.253:3689/databases/1/items?type=music&meta=daap.songartist,daap.songalbum,daap.songcompilation&session-id=111 HTTP/1.1
+Accept: */*
+User-Agent: iTunes/4.6 (Windows; N)
+Client-DAAP-Version: 3.0
+Client-DAAP-Access-Index: 2
+Client-DAAP-Validation: F1141EBD98BE417BBCBA1C171B415521
+
+HTTP/1.1 200 OK
+Content-Length: 501258
+Content-Type: application/x-dmap-tagged
+DAAP-Server: mt-daapd/0.2.3
+Accept-Ranges: bytes
+Date: Sun, 12 Feb 2006 03:20:10 GMT
+album selected Unspeakable
+GET daap://192.168.0.253:3689/databases/1/items?type=music&meta=dmap.itemname,daap.songartist,daap.songalbum,daap.songtracknumber,dmap.itemid,daap.songcompilation,daap.songdataurl&session-id=111 HTTP/1.1
+Accept: */*
+User-Agent: iTunes/4.6 (Windows; N)
+Client-DAAP-Version: 3.0
+Client-DAAP-Access-Index: 2
+Client-DAAP-Validation: 29F917D25099C913870A4AB70484FC3E
+
+HTTP/1.1 200 OK
+Content-Length: 968381
+Content-Type: application/x-dmap-tagged
+DAAP-Server: mt-daapd/0.2.3
+Accept-Ranges: bytes
+Date: Sun, 12 Feb 2006 03:20:17 GMT
+Song 6541:
+Title (00) : Tony
+Artist     : Bill Frisell
+Album      : Unspeakable
+Song 6538:
+Title (00) : Who Was That Girl!
+Artist     : Bill Frisell
+Album      : Unspeakable
+Song 6535:
+Title (00) : Stringbean
+Artist     : Bill Frisell
+Album      : Unspeakable
+Song 6532:
+Title (00) : Sundust
+Artist     : Bill Frisell
+Album      : Unspeakable
+Song 6542:
+Title (00) : Old Sugar Bear
+Artist     : Bill Frisell
+Album      : Unspeakable
+Song 6539:
+Title (00) : D. Sharpe
+Artist     : Bill Frisell
+Album      : Unspeakable
+Song 6536:
+Title (00) : Hymn For Ginsberg
+Artist     : Bill Frisell
+Album      : Unspeakable
+Song 6533:
+Title (00) : Del Close
+Artist     : Bill Frisell
+Album      : Unspeakable
+Song 6543:
+Title (00) : Goodbye Goodbye Goodbye
+Artist     : Bill Frisell
+Album      : Unspeakable
+Song 6530:
+Title (01) : 1968
+Artist     : Bill Frisell
+Album      : Unspeakable
+Song 6540:
+Title (00) : Fields Of Alfalfa
+Artist     : Bill Frisell
+Album      : Unspeakable
+Song 6537:
+Title (00) : Alias
+Artist     : Bill Frisell
+Album      : Unspeakable
+Song 6534:
+Title (00) : Gregory C.
+Artist     : Bill Frisell
+Album      : Unspeakable
+Song 6531:
+Title (00) : White Fang
+Artist     : Bill Frisell
+Album      : Unspeakable
+mp3: request 101
+mp3: (stop) MP3_STOPPED
+mp3: (waiting for MP3_STOPPED) MP3_STOPPED
+mp3: (waited) MP3_STOPPED
+mp3: request 104
+mp3: (stop) MP3_STOPPED
+mp3: CLEARED
+request: add to playlist 6537
+mp3: request 103
+mp3: adding song 6537 to playlist
+request: add to playlist 6539
+mp3: request 103
+mp3: adding song 6539 to playlist
+request: add to playlist 6533
+mp3: request 103
+mp3: adding song 6533 to playlist
+request: add to playlist 6540
+mp3: request 103
+mp3: adding song 6540 to playlist
+request: add to playlist 6543
+mp3: request 103
+mp3: adding song 6543 to playlist
+request: add to playlist 6534
+mp3: request 103
+mp3: adding song 6534 to playlist
+request: add to playlist 6536
+mp3: request 103
+mp3: adding song 6536 to playlist
+request: add to playlist 6542
+mp3: request 103
+mp3: adding song 6542 to playlist
+request: add to playlist 6535
+mp3: request 103
+mp3: adding song 6535 to playlist
+request: add to playlist 6532
+mp3: request 103
+mp3: adding song 6532 to playlist
+request: add to playlist 6541
+mp3: request 103
+mp3: adding song 6541 to playlist
+request: add to playlist 6531
+mp3: request 103
+mp3: adding song 6531 to playlist
+request: add to playlist 6538
+mp3: request 103
+mp3: adding song 6538 to playlist
+request: add to playlist 6530
+mp3: request 103
+mp3: adding song 6530 to playlist
+mp3: request 100
+mp2: sched priority 1 99
+mp3: pthread_setschedparam: Operation not permitted
+mp3: Starting to play songs on playlist
+mp3: Opening Device
+mp3: (set) MP3_PLAYING
+http_open 192.168.0.253:3689
+GET daap://192.168.0.253:3689/login HTTP/1.1
+Accept: */*
+User-Agent: iTunes/4.6 (Windows; N)
+Client-DAAP-Version: 3.0
+Client-DAAP-Access-Index: 2
+
+HTTP/1.1 200 OK
+Content-Length: 32
+Content-Type: application/x-dmap-tagged
+DAAP-Server: mt-daapd/0.2.3
+Accept-Ranges: bytes
+Date: Sun, 12 Feb 2006 03:20:31 GMT
+GET daap://192.168.0.253:3689/databases/1/items/6537.mp3?session-id=112 HTTP/1.1
+Accept: */*
+Cache-Control: no-cache
+User-Agent: iTunes/4.6 (Windows; N)
+Client-DAAP-Version: 3.0
+Client-DAAP-Access-Index: 2
+Client-DAAP-Validation: 4E8F1159C68855291757CE8DA94DBE33
+Client-DAAP-Request-ID: 1
+x-audiocast-udpport: 3799
+icy-metadata: 1
+Connection: close
+
+HTTP/1.1 200 OK
+Connection: Close
+Content-Length: 13332670
+Content-Type: audio/mp3
+DAAP-Server: mt-daapd/0.2.3
+Accept-Ranges: bytes
+Date: Sun, 12 Feb 2006 03:20:31 GMT
+mp3: decoding error 0x0101 (lost synchronization)
+mp3: request 101
+mp3: (stop) MP3_STOP
+mp3: (waiting for MP3_STOPPED) MP3_STOP
+GET daap://192.168.0.253:3689/logout?session-id=112 HTTP/1.1
+Accept: */*
+User-Agent: iTunes/4.6 (Windows; N)
+Client-DAAP-Version: 3.0
+Client-DAAP-Access-Index: 2
+Client-DAAP-Validation: 9954C5CA5DF20D930C8691AAE8E45D7D
+
+HTTP/1.1 204 Logout Successful
+Content-Type: application/x-dmap-tagged
+DAAP-Server: mt-daapd/0.2.3
+Accept-Ranges: bytes
+Date: Sun, 12 Feb 2006 03:20:39 GMT
+mp3: Closing Device
+mp3: Closing Device done
+mp3: (set) MP3_STOPPED
+mp3: (waited) MP3_STOPPED
+mp3: Play thread exited
+Show "Now playing"
+Now playing Draw
+Song 6537:
+Title (00) : Alias
+Artist     : Bill Frisell
+Album      : Unspeakable
+Not showing "Now playing" anymore
+Show "Now playing"
+Now playing Draw
+Song 6537:
+Title (00) : Alias
+Artist     : Bill Frisell
+Album      : Unspeakable
+Not showing "Now playing" anymore
+request: add to playlist 6540
+request: add to playlist 6543
+request: add to playlist 6534
+request: add to playlist 6536
+request: add to playlist 6542
+request: add to playlist 6535
+request: add to playlist 6532
+request: add to playlist 6541
+request: add to playlist 6531
+request: add to playlist 6538
+request: add to playlist 6530
+mp3: request 101
+mp3: (stop) MP3_STOPPED
+mp3: (waiting for MP3_STOPPED) MP3_STOPPED
+mp3: (waited) MP3_STOPPED
+mp3: request 104
+mp3: (stop) MP3_STOPPED
+mp3: CLEARED
+mp3: request 103
+mp3: adding song 6540 to playlist
+mp3: request 103
+mp3: adding song 6543 to playlist
+mp3: request 103
+mp3: adding song 6534 to playlist
+mp3: request 103
+mp3: adding song 6536 to playlist
+mp3: request 103
+mp3: adding song 6542 to playlist
+mp3: request 103
+mp3: adding song 6535 to playlist
+mp3: request 103
+mp3: adding song 6532 to playlist
+mp3: request 103
+mp3: adding song 6541 to playlist
+mp3: request 103
+mp3: adding song 6531 to playlist
+mp3: request 103
+mp3: adding song 6538 to playlist
+mp3: request 103
+mp3: adding song 6530 to playlist
+mp3: request 100
+mp2: sched priority 1 99
+mp3: pthread_setschedparam: Operation not permitted
+mp3: Starting to play songs on playlist
+mp3: Opening Device
+mp3: (set) MP3_PLAYING
+http_open 192.168.0.253:3689
+GET daap://192.168.0.253:3689/login HTTP/1.1
+Accept: */*
+User-Agent: iTunes/4.6 (Windows; N)
+Client-DAAP-Version: 3.0
+Client-DAAP-Access-Index: 2
+
+HTTP/1.1 200 OK
+Content-Length: 32
+Content-Type: application/x-dmap-tagged
+DAAP-Server: mt-daapd/0.2.3
+Accept-Ranges: bytes
+Date: Sun, 12 Feb 2006 03:20:49 GMT
+GET daap://192.168.0.253:3689/databases/1/items/6540.mp3?session-id=113 HTTP/1.1
+Accept: */*
+Cache-Control: no-cache
+User-Agent: iTunes/4.6 (Windows; N)
+Client-DAAP-Version: 3.0
+Client-DAAP-Access-Index: 2
+Client-DAAP-Validation: 13D676131843C075F4E03495DAC1F877
+Client-DAAP-Request-ID: 1
+x-audiocast-udpport: 3799
+icy-metadata: 1
+Connection: close
+
+HTTP/1.1 200 OK
+Connection: Close
+Content-Length: 5753282
+Content-Type: audio/mp3
+DAAP-Server: mt-daapd/0.2.3
+Accept-Ranges: bytes
+Date: Sun, 12 Feb 2006 03:20:49 GMT
+mp3: decoding error 0x0101 (lost synchronization)
+Show "Now playing"
+Now playing Draw
+Song 6540:
+Title (00) : Fields Of Alfalfa
+Artist     : Bill Frisell
+Album      : Unspeakable
+Not showing "Now playing" anymore
+mp3: request 101
+mp3: (stop) MP3_STOP
+mp3: (waiting for MP3_STOPPED) MP3_STOP
+GET daap://192.168.0.253:3689/logout?session-id=113 HTTP/1.1
+Accept: */*
+User-Agent: iTunes/4.6 (Windows; N)
+Client-DAAP-Version: 3.0
+Client-DAAP-Access-Index: 2
+Client-DAAP-Validation: A86DF94BE405C7C29310240B86D540F8
+
+HTTP/1.1 204 Logout Successful
+Content-Type: application/x-dmap-tagged
+DAAP-Server: mt-daapd/0.2.3
+Accept-Ranges: bytes
+Date: Sun, 12 Feb 2006 03:20:55 GMT
+mp3: Closing Device
+mp3: Closing Device done
+mp3: (set) MP3_STOPPED
+mp3: (waited) MP3_STOPPED
+mp3: Play thread exited
+Artist Blue Öyster Cult
+GET daap://192.168.0.253:3689/databases/1/items?type=music&meta=daap.songartist,daap.songalbum,daap.songcompilation&session-id=111 HTTP/1.1
+Accept: */*
+User-Agent: iTunes/4.6 (Windows; N)
+Client-DAAP-Version: 3.0
+Client-DAAP-Access-Index: 2
+Client-DAAP-Validation: F1141EBD98BE417BBCBA1C171B415521
+
+HTTP/1.1 200 OK
+Content-Length: 501258
+Content-Type: application/x-dmap-tagged
+DAAP-Server: mt-daapd/0.2.3
+Accept-Ranges: bytes
+Date: Sun, 12 Feb 2006 03:21:03 GMT
+album selected Mega Rock, Vol. 2
+GET daap://192.168.0.253:3689/databases/1/items?type=music&meta=dmap.itemname,daap.songartist,daap.songalbum,daap.songtracknumber,dmap.itemid,daap.songcompilation,daap.songdataurl&session-id=111 HTTP/1.1
+Accept: */*
+User-Agent: iTunes/4.6 (Windows; N)
+Client-DAAP-Version: 3.0
+Client-DAAP-Access-Index: 2
+Client-DAAP-Validation: 29F917D25099C913870A4AB70484FC3E
+
+HTTP/1.1 200 OK
+Content-Length: 968381
+Content-Type: application/x-dmap-tagged
+DAAP-Server: mt-daapd/0.2.3
+Accept-Ranges: bytes
+Date: Sun, 12 Feb 2006 03:21:05 GMT
+Song 84289:
+Title (09) : (Don't Fear) The Reaper
+Artist     : Blue Öyster Cult
+Album      : Mega Rock, Vol. 2
+mp3: request 101
+mp3: (stop) MP3_STOPPED
+mp3: (waiting for MP3_STOPPED) MP3_STOPPED
+mp3: (waited) MP3_STOPPED
+mp3: request 104
+mp3: (stop) MP3_STOPPED
+mp3: CLEARED
+request: add to playlist 84289
+mp3: request 103
+mp3: adding song 84289 to playlist
+mp3: request 100
+mp2: sched priority 1 99
+mp3: pthread_setschedparam: Operation not permitted
+mp3: Starting to play songs on playlist
+mp3: Opening Device
+mp3: (set) MP3_PLAYING
+http_open 192.168.0.253:3689
+GET daap://192.168.0.253:3689/login HTTP/1.1
+Accept: */*
+User-Agent: iTunes/4.6 (Windows; N)
+Client-DAAP-Version: 3.0
+Client-DAAP-Access-Index: 2
+
+HTTP/1.1 200 OK
+Content-Length: 32
+Content-Type: application/x-dmap-tagged
+DAAP-Server: mt-daapd/0.2.3
+Accept-Ranges: bytes
+Date: Sun, 12 Feb 2006 03:21:10 GMT
+GET daap://192.168.0.253:3689/databases/1/items/84289.mp3?session-id=114 HTTP/1.1
+Accept: */*
+Cache-Control: no-cache
+User-Agent: iTunes/4.6 (Windows; N)
+Client-DAAP-Version: 3.0
+Client-DAAP-Access-Index: 2
+Client-DAAP-Validation: 3063C57590E98921F96D392620DB04C1
+Client-DAAP-Request-ID: 1
+x-audiocast-udpport: 3799
+icy-metadata: 1
+Connection: close
+
+HTTP/1.1 200 OK
+Connection: Close
+Content-Length: 7408182
+Content-Type: audio/mp3
+DAAP-Server: mt-daapd/0.2.3
+Accept-Ranges: bytes
+Date: Sun, 12 Feb 2006 03:21:10 GMT
+mp3: decoding error 0x0101 (lost synchronization)
+mp3: request 101
+mp3: (stop) MP3_STOP
+mp3: (waiting for MP3_STOPPED) MP3_STOP
+GET daap://192.168.0.253:3689/logout?session-id=114 HTTP/1.1
+Accept: */*
+User-Agent: iTunes/4.6 (Windows; N)
+Client-DAAP-Version: 3.0
+Client-DAAP-Access-Index: 2
+Client-DAAP-Validation: 2C1EBF38C8B7CCD680EBA9218BF5BAF7
+
+HTTP/1.1 204 Logout Successful
+Content-Type: application/x-dmap-tagged
+DAAP-Server: mt-daapd/0.2.3
+Accept-Ranges: bytes
+Date: Sun, 12 Feb 2006 03:21:13 GMT
+mp3: Closing Device
+mp3: Closing Device done
+mp3: (set) MP3_STOPPED
+mp3: (waited) MP3_STOPPED
+mp3: Play thread exited
+GET daap://192.168.0.253:3689/logout?session-id=111 HTTP/1.1
+Accept: */*
+User-Agent: iTunes/4.6 (Windows; N)
+Client-DAAP-Version: 3.0
+Client-DAAP-Access-Index: 2
+Client-DAAP-Validation: C166EAF5C93DA02414DCD13347FB705E
+
+HTTP/1.1 204 Logout Successful
+Content-Type: application/x-dmap-tagged
+DAAP-Server: mt-daapd/0.2.3
+Accept-Ranges: bytes
+Date: Sun, 12 Feb 2006 03:21:27 GMT
+Found server "Music on NSLU2" at 192.168.0.253:3689
+Shuffle timer expired
+connecting to 192.168.0.253:3689
+http_open 192.168.0.253:3689
+GET daap://192.168.0.253:3689/login HTTP/1.1
+Accept: */*
+User-Agent: iTunes/4.6 (Windows; N)
+Client-DAAP-Version: 3.0
+Client-DAAP-Access-Index: 2
+
+HTTP/1.1 200 OK
+Content-Length: 32
+Content-Type: application/x-dmap-tagged
+DAAP-Server: mt-daapd/0.2.3
+Accept-Ranges: bytes
+Date: Sun, 12 Feb 2006 03:21:36 GMT
+GET daap://192.168.0.253:3689/databases?session-id=115 HTTP/1.1
+Accept: */*
+User-Agent: iTunes/4.6 (Windows; N)
+Client-DAAP-Version: 3.0
+Client-DAAP-Access-Index: 2
+Client-DAAP-Validation: D8CAC5FD7C8C0AC149C5685274A24421
+
+HTTP/1.1 200 OK
+Content-Length: 143
+Content-Type: application/x-dmap-tagged
+DAAP-Server: mt-daapd/0.2.3
+Accept-Ranges: bytes
+Date: Sun, 12 Feb 2006 03:21:36 GMT
+GET daap://192.168.0.253:3689/databases/1/items?type=music&meta=daap.songartist,daap.songcompilation&session-id=115 HTTP/1.1
+Accept: */*
+User-Agent: iTunes/4.6 (Windows; N)
+Client-DAAP-Version: 3.0
+Client-DAAP-Access-Index: 2
+Client-DAAP-Validation: 7C6F7183617EF8686337DD6F171637B2
+
+HTTP/1.1 200 OK
+Content-Length: 254121
+Content-Type: application/x-dmap-tagged
+DAAP-Server: mt-daapd/0.2.3
+Accept-Ranges: bytes
+Date: Sun, 12 Feb 2006 03:21:36 GMT
+GET daap://192.168.0.253:3689/logout?session-id=115 HTTP/1.1
+Accept: */*
+User-Agent: iTunes/4.6 (Windows; N)
+Client-DAAP-Version: 3.0
+Client-DAAP-Access-Index: 2
+Client-DAAP-Validation: ACD0FC6ED230C6AA7CD44E00C3042EF7
+
+HTTP/1.1 204 Logout Successful
+Content-Type: application/x-dmap-tagged
+DAAP-Server: mt-daapd/0.2.3
+Accept-Ranges: bytes
+Date: Sun, 12 Feb 2006 03:21:41 GMT
+Found server "Music on NSLU2" at 192.168.0.253:3689
+[screen1]: Stopping
+[screen1]: Done.
+font_close
+free bitmaps
+free area
+Really done
+WMAmp Version 0.6 GJ06, Copyright (C) 2004 James Pitts jim@codeworker.com 2006 Geert Janssen
+wmamp comes with ABSOLUTELY NO WARRANTY
+This is free software, and you are welcome to redistribute it
+under certain conditions of the GPL; http://www.gnu.org/copyleft/gpl.html
+

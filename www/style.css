@@ -1,0 +1,300 @@
+/*
+This style came from Movable Lines ( http://www.movablestyle.com/index.php?style=Modern+Lines )
+Released under the GPL ( http://www.movablestyle.com/archives/000015.php )
+By Scott Yang http://scott.yang.id.au/
+*/
+
+body, table {
+    font-family: verdana, helvetica;
+}
+
+body {
+    background-color: #fff;
+    margin: 0;
+    padding: 0;
+    font-size: small;
+    font-weight: normal;
+}
+
+a 		{ color: #668; text-decoration: none; font-weight:normal; } 
+a:link		{ color: #668; } 
+a:visited	{ color: #668; } 
+a:active	{ color: #334; } 
+a:hover		{ color: #334; }
+
+h1, h2, h3 {
+    margin: 0px;
+}
+
+#banner {
+    margin: 0px;
+    padding: 10px 0 15px 0;
+    background-color: #C7C9DD;
+    border-bottom: #dde solid 1px;
+}
+
+#banner-commentspop {
+    border-bottom: #888 solid 1px;
+    border-left: #888 solid 10px;
+    color: #666;
+    font-size: x-large;
+    font-weight: bold;
+    margin: 5px 5px 10px 5px;
+    padding: 0 0 3px 3px;
+}
+
+#banner a,
+#banner a:link,
+#banner a:visited,
+#banner a:active,
+#banner a:hover {
+    color: #fff;
+    font-size: xx-large;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#banner h1 {
+    padding: 0 0 3px 13px;
+    color: #ff;
+}
+
+#banner .description {
+    color: #88c;
+    font-size: small;
+    font-weight: bold;
+    margin-left: 30px;
+}	
+
+#content {
+    margin: 0 230px 10px 10px;
+    border-right: #dde solid 1px;
+}
+
+#container {
+    margin: 0 10px 10px 10px;
+}
+
+#links {
+    background-color: #ECEEF8;
+    border-left: 1px solid #dde;
+    padding: 10px;				
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 210px;
+}
+
+#content .blog, #container .blog {
+    border-left: #dde solid 1px;
+    margin-left: 163px;
+}
+#content .blog {
+    background-color: #fff;
+}
+
+.blogbody {
+    color: #333;
+    font-size: small;
+    font-weight: normal;
+    line-height: 140%;			
+    margin: 0 20px 15px 20px;
+}
+
+.blogbody a,
+.blogbody a:link,
+.blogbody a:visited {
+    border-bottom: 1px dotted #334;
+}
+.blogbody a:active,
+.blogbody a:hover {
+    border-bottom: 1px solid #668;
+}
+
+.title	{ 
+    color: #000000; 	
+    font-size: 18px;
+    font: georgia, geneva, Times;
+    margin: 0 0 8px -6px;
+}			
+
+#menu {
+    border-bottom: #eef solid 1px;
+    border-right: #eef solid 10px;
+    font-size: small;
+    margin-right: 10px;
+    padding: 0 5px 2px 0;
+    text-align: right;  							
+}		
+
+.date	{ 
+    border-right: #dde solid 1px;
+    border-bottom: #dde solid 1px;
+    border-left: #dde solid 5px;
+    color: #99b; 
+    font-size: small;
+    font-weight: normal;
+    height: 20px;
+    left: -151px;
+    margin: 0;
+    padding-top: 5px;
+    padding-right: 8px;
+    position: relative;
+    top: 20px;
+    width: 137px;
+    text-align: right;
+}			
+
+.posted	{ 
+    color: #666; 
+    display: block;
+    font-size: x-small; 
+    font-style: italic;
+    margin-top: 8px;
+    text-align: right;
+}
+
+
+.calendar {
+    font-size: x-small;
+    font-weight: normal;
+    line-height: 140%;
+    padding: 2px;
+    text-align: center;	
+}
+
+div.calendar {
+}
+
+div.calendar table {
+    margin-left: 8px;
+}
+
+.calendarhead {	
+    border-bottom: #eef solid 1px;
+    border-left: 10px solid #dde;
+    color: #666;
+    font-size: small;
+    font-weight: bold;
+    padding: 0 0 0 3px;					
+    text-align: left;
+    width: 100%;
+}	
+
+.side {
+    color: #333;
+    font-size: x-small;
+    font-weight: normal;
+    line-height: 180%;
+    margin: 0px;
+    padding: 3px 0 3px 6px;
+    background-color: #fff;
+    border-left: 1px solid #ddf;
+    border-top: 1px solid #ddf;
+    border-right: 1px solid #eef;
+    border-bottom: 1px solid #eef;
+    clear: both;
+}
+
+.side a:hover {
+    padding-left: 3px;
+    border-left: 1px solid #dde;
+}
+
+.sidetitle {
+    color: #666;
+    font-size: small;
+    font-weight: bold;
+    padding: 0 0 2px 0px;
+    margin-top: 15px;
+}
+
+.syndicate {
+    font-size: x-small;
+    font-weight: bold;		
+    padding: 2px;
+    margin-top: 10px;
+    text-align: center;
+}	
+
+.powered {
+    font-size: x-small;
+    font-weight: bold;
+    line-height:140%;
+    margin-top: 10px;
+    padding:2px;
+    text-align:center;
+}	
+
+
+.comments-body {
+    border-left: #ccc solid 10px;
+    border-bottom: #ccc solid 1px;
+    color: #666;
+    font-size: small;
+    font-weight: normal;
+    line-height: 140%;
+    margin: 0 10px 20px 10px;
+    padding-left: 5px;
+}		
+
+.comments-post {
+    color: #888; 
+    display: block;
+    font-size: x-small; 
+    font-style: italic;
+    margin-top: 3px;
+    text-align: right;
+}	
+
+.trackback-url {
+    border-bottom: #888 solid 1px;
+    border-left: #888 solid 10px;
+    color: #666;
+    font-size: small;
+    font-weight: normal;
+    margin: 0 5px 10px 5px;
+    padding: 0 0 3px 3px;
+}
+
+.trackback-body {
+    border-bottom: #ccc solid 1px;
+    border-right: #ccc solid 10px;
+    color: #666;
+    font-size: small;
+    font-weight: normal;
+    line-height: 140%;
+    margin: 0 5px 10px 5px;
+}		
+
+.trackback-post {
+    color: #666;
+    font-size: small;
+    font-weight: normal;
+}
+
+.comments-head	{ 
+    color: #88c; 
+    font-size: small; 
+    font-weight: bold;
+    font-size: small; 
+    font-weight: bold;
+    margin: 0 0 5px 10px;
+}		
+
+#author, #email, #url, #text, #title {
+    border-bottom: #888 solid 1px;
+    border-left: #888 solid 10px;
+    border-right: #ccc solid 1px;
+    border-top: #ccc solid 1px;
+    padding-left: 3px;
+}
+
+/* calendar css */
+
+.calendarHeader { font-size: 12px; font-weight: bolder; color: #fff; background: #666;}
+.calendarToday { font-size: 12px; font-weight: bold; background: black; }
+.calDayLink { font-style: italic; }
+.calendar { font-size: 12px; font-weight: bold; background: #f6f6f6; }
+.calendartab { font-size: 12px; font-weight: bold; background: #f6f6f6; border: 2px solid #b0e0e6;}
+#Cal { font-size: 12px;}

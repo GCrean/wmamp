@@ -1,0 +1,54 @@
+GJ06
+
+Key	Symbol	Action		Alternative Key(s)
+==================================================
+w	^	UP
+s	V	DOWN
+e		SELECT/ENTER	C-m
+a	<	LEFT
+d	>	RIGHT
+q		PREVIOUS
+o	[]	STOP
+p	[>]	PLAY/PAUSE	Space
+m		MENU
+n	>>	NEXT
+b	<<	BACK		Backspace
+f		PAGE DOWN
+r		PAGE UP
+i		OPTIONS
+-		VOLUME DOWN
+=		VOLUME UP
+M		MUSIC
+
+Not assigned:
+		POWER
+		SETUP
+		PICTURES
+		ZOOM UP
+		ZOOM DOWN
+
+Layout on keyboard:
+
+                   - =
+q w e r	      i o p
+ a s d f
+            n M
+
+Layout on Linksys remote:
+
+=========================
+                    Power
+
+Menu Music Pictures Setup
+
+       ^            ^
+                    Page
+<    Select   >     V
+
+       V      +     ^
+                    Zoom
+Prev Options  -     V
+
+<<    >>      >||   []
+Back  Next    Play  Stop
+=========================

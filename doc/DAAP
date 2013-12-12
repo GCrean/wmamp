@@ -1,0 +1,132 @@
+Source:
+http://www.deleet.de/projekte/daap/?ContentCodes
+
+[daap] ContentCodes
+
+The ContentCodes are the available tag types. The list of the available
+content codes is an mccr tag and can be requested with GET /content-codes.
+
+iTunes (as of 5.0) knows the following ContentCodes:
+(in Code, upper and lower case are significant)
+
+Code Name				Type
+============================================
+abal daap.browsealbumlisting		0x0C
+abar daap.browseartistlisting		0x0C
+abcp daap.browsecomposerlisting		0x0C
+abgn daap.browsegenrelisting		0x0C
+abpl daap.baseplaylist			0x01
+abro daap.databasebrowse		0x0C
+adbs daap.databasesongs			0x0C
+aeNV com.apple.itunes.norm-volume	0x05
+aeSP com.apple.itunes.smart-playlist	0x01
+aply daap.databaseplaylists		0x0C
+apro daap.protocolversion		0x0B
+apso daap.playlistsongs			0x0C
+arif daap.resolveinfo			0x0C
+arsv daap.resolve			0x0C
+asal daap.songalbum			0x09
+asar daap.songartist			0x09
+asbr daap.songbitrate			0x03
+asbt daap.songbeatsperminute		0x03
+ascm daap.songcomment			0x09
+asco daap.songcompilation		0x01
+ascp daap.songcomposer			0x09
+asda daap.songdateadded			0x0A
+asdb daap.songdisabled			0x01
+asdc daap.songdisccount			0x03
+asdk daap.songdatakind			0x01
+asdm daap.songdatemodified		0x0A
+asdn daap.songdiscnumber		0x03
+asdt daap.songdescription		0x09
+aseq daap.songeqpreset			0x09
+asfm daap.songformat			0x09
+asgn daap.songgenre			0x09
+asrv daap.songrelativevolume		0x02
+assp daap.songstoptime			0x05
+assr daap.songsamplerate		0x05
+asst daap.songstarttime			0x05
+assz daap.songsize			0x05
+astc daap.songtrackcount		0x03
+astm daap.songtime			0x05
+astn daap.songtracknumber		0x03
+asul daap.songdataurl			0x09
+asur daap.songuserrating		0x01
+asyr daap.songyear			0x03
+avdb daap.serverdatabases		0x0C
+mbcl dmap.bag				0x0C
+mccr dmap.contentcodesresponse		0x0C
+mcna dmap.contentcodesname		0x09
+mcnm dmap.contentcodesnumber		0x05
+mcon dmap.container			0x0C
+mctc dmap.containercount		0x05
+mcti dmap.containeritemid		0x05
+mcty dmap.contentcodestype		0x03
+mdcl dmap.dictionary			0x0C
+miid dmap.itemid			0x05
+mikd dmap.itemkind			0x01
+mimc dmap.itemcount			0x05
+minm dmap.itemname			0x09
+mlcl dmap.listing			0x0C
+mlid dmap.sessionid			0x05
+mlit dmap.listingitem			0x0C
+mlog dmap.loginresponse			0x0C
+mpco dmap.parentcontainerid		0x05
+mper dmap.persistentid			0x07
+mpro dmap.protocolversion		0x0B
+mrco dmap.returnedcount			0x05
+msal dmap.supportsautologout		0x01
+msau dmap.authenticationmethod		0x01
+msbr dmap.supportsbrowse		0x01
+msdc dmap.databasescount		0x05
+msex dmap.supportsextensions		0x01
+msix dmap.supportsindex			0x01
+mslr dmap.loginrequired			0x01
+mspi dmap.supportspersistentids		0x01
+msqy dmap.supportsquery			0x01
+msrs dmap.supportsresolve		0x01
+msrv dmap.serverinforesponse		0x0C
+mstm dmap.timeoutinterval		0x05
+msts dmap.statusstring			0x09
+mstt dmap.status			0x05
+msup dmap.supportsupdate		0x01
+mtco dmap.specifiedtotalcount		0x05
+mudl dmap.deletedidlisting		0x0C
+mupd dmap.updateresponse		0x0C
+musr dmap.serverrevision		0x05
+muty dmap.updatetype			0x01
+
+Types
+
+ 0x01 is INT 8
+ 0x02 is INT ?
+ 0x03 is INT 16
+ 0x05 is INT 32
+ 0x09 is STRING
+ 0x0A is TIME
+ 0x0B is VERSION
+ 0x0C is CONTAINER
+
+Changes and new ones in iTunes 4.5:
+
+ asrv 0x 00 02 (was 0x 00 01) daap.songrelativevolume (new)
+ msas 0x 00 01 dmap.authenticationschemes
+ ascd 0x 00 05 daap.songcodectype
+ ascs 0x 00 05 daap.songcodecsubtype
+ aeSV 0x 00 05 com.apple.itunes.music-sharing-version
+ aePI 0x 00 05 com.apple.itunes.itms-playlistid
+ aeCI 0x 00 05 com.apple.itunes.itms-composerid
+ aeGI 0x 00 05 com.apple.itunes.itms-genreid
+ aeAI 0x 00 05 com.apple.itunes.itms-artistid
+ aeSI 0x 00 05 com.apple.itunes.itms-songid
+
+Type seems to mean that:
+
+ 0x0001 1 byte integer (not tested)
+ 0x0002 1 byte integer (iTunes 4.2+ and only used by daap.songrelativevolume seems to be signed)
+ 0x0003 2 byte integer
+ 0x0005 4 byte integer
+ 0x0007 is only used for the 8 byte persistent id
+ 0x0009 text
+ 0x000A some kind of date (not tested)
+ 0x000C block (can contain other tags)

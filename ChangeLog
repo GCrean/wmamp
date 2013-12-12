@@ -1,0 +1,29 @@
+2006-02-11  Geert Janssen  <geert@watson.ibm.com>
+
+	* mixer.c (set_volume): Really has to be O_WRONLY. Now volume is
+	indeed working.
+
+2006-02-08  Geert Janssen  <geert@watson.ibm.com>
+
+	* Added capability to handle Content-Encoding: gzip.
+
+2006-02-04  Geert Janssen  <geert@watson.ibm.com>
+
+	* listview retains its contents across screen changes.
+	This is much faster.
+	
+	* The button "Music" toggles between Nowplaying and the
+	current screen.
+
+	* Fixed use of playlist in mp3.c; now correctly can add songs
+	while playing and playlist doesn't get cleared unexpectedly.
+	Also, fixed some mutex problems.
+
+	* Using PPM as base format for images.
+
+2006-01-26  Geert Janssen  <geert@watson.ibm.com>
+
+	* Build 0.4.1 release.
+
+	* Many code changes. Cosmetics but also bug and leak fixes.
+

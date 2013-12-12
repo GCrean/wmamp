@@ -1,0 +1,10 @@
+3rd Party Packages used...
+
+# Rendezvous 58.8  http://www.apple.com - removed in favour of libmdnsd
+libopendaap authentication  http://crazney.net/programs/itunes/libopendaap.html
+libmad-0.15.1b  http://www.underbit.com
+freetype 2 (6.3.10)  http://www.freetype.org
+libhttpd-1.4  http://www.hughes.com.au
+libz-1.2.3    http://www.zlib.net
+Tremor 1.0.2  http://www.xiph.org/vorbis/
+libmdnsd-0.1  derived from mdnsd http://dotlocal.org/mdnsd/ and libopendaap-0.4

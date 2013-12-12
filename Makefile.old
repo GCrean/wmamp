@@ -1,0 +1,72 @@
+##
+##	Top level Make
+##	Builds i386 and ARM targets
+##
+
+## Set this to where ever your development tree exists
+## example: /usr/local/arm
+#ARMPREFIX=/usr/local/arm/arm-linux
+#ARMPREFIX=/data/arm/arm-linux/gcc-3.3.2-glibc-2.3.2
+ARMPREFIX=/home/jeff/buildroot/build_arm_nofpu/staging_dir
+
+## Set this to the arm-linux installation
+ARMLINUX=$(ARMPREFIX)/bin/arm-linux
+
+## path to the apple rendezvous code.
+#RENDEZVOUS=/home/jim/mDNSResponder-58.8
+#RENDEZVOUS=/home/geert/Downloads/Linksys-WMA11B/WMAmp/mDNSResponder-58.8
+RENDEZVOUS=/home/jeff/linksys/wma11b/client-uClibc/wmamp-0.6-ogg/mdnsd
+
+## path to freetype 2
+ARMFREETYPE=$(ARMLINUX)/include/freetype2
+i386FREETYPE=$(ARMLINUX)/include/freetype2
+
+## LIB paths
+ARMLIBPATH=-L$(ARMPREFIX)/lib
+i386LIBPATH=-L/usr/local/lib
+
+## Include paths
+#ARMINC=-I../include -I$(ARMFREETYPE) -I$(ARMLINUX)/include -I$(RENDEZVOUS)
+#ARMINC=-nostdinc -I/usr/lib/gcc-lib/arm-linux/3.3.6/include -I$(ARMFREETYPE) -I$(RENDEZVOUS) -I$(ARMLINUX)/include -I../include
+i386INC=-I$(i386FREETYPE) -I$(RENDEZVOUS) -I/usr/local/include
+
+## Linker flags
+ARMLDFLAGS=-Wl,-rpath,/lib,-rpath,/guava
+i386LDFLAGS=
+
+## Compiler
+#ARMCC=$(ARMPREFIX)/bin/arm-linux-gcc
+ARMCC=arm-linux-gcc
+i386CC=gcc
+
+usage:
+	echo "make arm|i386"
+
+all: i386 arm
+
+i386:
+	make CC='$(i386CC)' LDFLAGS='$(i386LDFLAGS)' RENDEZVOUS='$(RENDEZVOUS)' \
+		FREETYPE='$(i386FREETYPE)' LIBPATH='$(i386LIBPATH)' INC='$(i386INC)' \
+		--directory=build/i386
+	-rm -rf core.*
+	-cp build/i386/wmamp .
+
+arm:
+	make CC='$(ARMCC)' LDFLAGS='$(ARMLDFLAGS)' RENDEZVOUS='$(RENDEZVOUS)' \
+	     FREETYPE='$(ARMFREETYPE)' LIBPATH='$(ARMLIBPATH)'               \
+	     INC='$(ARMINC)' ARMLINUX='$(ARMLINUX)'\
+		--directory=build/arm os=arm
+
+clean:
+	-rm -rf core.* wmamp
+	make --directory=build/i386 clean
+	make --directory=build/arm clean
+
+
+depend: 
+	make CC='$(i386CC)' LDFLAGS='$(i386LDFLAGS)' RENDEZVOUS='$(RENDEZVOUS)' \
+		FREETYPE='$(i386FREETYPE)' LIBPATH='$(i386LIBPATH)' INC='$(i386INC)' \
+		--directory=build/i386 depend
+	make CC='$(ARMCC)' LDFLAGS='$(ARMLDFLAGS)' RENDEZVOUS='$(RENDEZVOUS)' \
+		FREETYPE='$(i386FREETYPE)' LIBPATH='$(ARMLIBPATH)' INC='$(ARMINC)' \
+		--directory=build/arm os=arm depend
